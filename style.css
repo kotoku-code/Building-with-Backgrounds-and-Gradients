@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.back-ground-image {
+    background: url(./media/your_verse_hero.jpg)50% 100% no-repeat;
+    width: 100%;
+    height: 538px;
+}
+
+
+.nav{
+    height: 30px;
+}
+
+.nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 3px solid black;
+	border-radius: 3px;
+	list-style: none;
+	width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+.nav li {
+	border-right: 3px solid black;
+	padding-right: 40px;
+}
+.nav a {
+	color: blanchedalmond;
+}
+#apple {
+}
+
+#search-icon {
+	position: relative;
+	left: 10%;
+}
+
+.nav input {
+	border-radius: 7px;
+}
+
+.slogans {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.last-slogan {
+}
+
+.slogans h1 {
+	/* Font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
+	Font-size: 60px;
+	Font-weight: 100;
+	font-style: normal;
+	Line-height: 36px;
+	color: white;
+}
+
+.slogans a {
+	text-decoration: none;
+}
+
+.bottom-images {
+	display: flex;
+	flex-direction: row;
+	justify-content: ;
+	margin-bottom: 0;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom-images img {
+	width: 360px;
+	height: 200px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.apple-online{
+justify-content: flex-start;
+}
+
+.links ul li{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+
+
+
