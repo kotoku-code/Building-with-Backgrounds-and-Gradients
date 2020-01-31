@@ -45,54 +45,83 @@ body {
 	justify-content: center;
 	position: relative;
 	border-left: 2px solid grey;
+
 }
 
 .nav a {
 	color: blanchedalmond;
+	background-color: transparent;
 	text-decoration: none;
 	font-family:  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-	Font-size: 13px;
 
+	Font-size: 13px;
 	Font-weight: 600;
 
 	Line-height: 18px;
 
 	color: rgba(255, 255, 255, 0.979);
+
 }
 .nav input {
 	position: absolute;
 	overflow: hidden;
-	white-space: nowrap;
 	width: 90px;
-	bottom: 0px;
-	flex-basis: 30px;
+	bottom: 3px;
 	height: 22px;
-
-	/* border-radius: 7px; */
+	right: 15px;
+	border-radius: 10px;
+	background-image: linear-gradient(grey, #5f635f, grey);
+	border: 2px solid grey;
 }
 #apple {
+	background-image: linear-gradient(grey, #5f635f, grey);
+	color: #D7D8D9;
 }
 
-#search-icon {
-	/* position: relative;
-	left: 10%; */
+.nav i {
+	position: relative;
+	left: 3%;
+	top: 1.5px; 
+	color: white;
+
+	z-index: 3;
+
+}
+
+.nav text{	background-image: linear-gradient(grey, #5f635f, grey);
 }
 
 .slogans {
 	text-align: center;
 	margin-top: 100px;
-}
-
-.last-slogan {
-}
-
-.slogans h1 {
-	/* Font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
-	Font-size: 60px;
-	Font-weight: 100;
-	font-style: normal;
-	Line-height: 36px;
+	font-family: 'Raleway', sans-serif;
 	color: white;
+
+}
+
+
+#verse{
+	font-family: 'Raleway', sans-serif;
+	Font-size: 60px;
+	Font-weight: normal;
+	line-height: normal;
+	position: relative;
+	bottom: 50px;
+	color: white;
+}
+
+.slogans h2{
+Font-size: 30px;
+Font-weight: 700;
+Line-height: 18px;
+color: white;
+position: relative;
+bottom: 36px;
+}
+
+.slogans h3{
+	color: white;
+	font-size: 25px;
 }
 
 .slogans a {
