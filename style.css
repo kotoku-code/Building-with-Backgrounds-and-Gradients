@@ -45,14 +45,13 @@ body {
 	justify-content: center;
 	position: relative;
 	border-left: 2px solid grey;
-
 }
 
 .nav a {
 	color: blanchedalmond;
 	background-color: transparent;
 	text-decoration: none;
-	font-family:  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 
 	Font-size: 13px;
 	Font-weight: 600;
@@ -60,7 +59,6 @@ body {
 	Line-height: 18px;
 
 	color: rgba(255, 255, 255, 0.979);
-
 }
 .nav input {
 	position: absolute;
@@ -75,20 +73,20 @@ body {
 }
 #apple {
 	background-image: linear-gradient(grey, #5f635f, grey);
-	color: #D7D8D9;
+	color: #d7d8d9;
 }
 
 .nav i {
 	position: relative;
 	left: 3%;
-	top: 1.5px; 
+	top: 1.5px;
 	color: white;
 
 	z-index: 3;
-
 }
 
-.nav text{	background-image: linear-gradient(grey, #5f635f, grey);
+.nav text {
+	background-image: linear-gradient(grey, #5f635f, grey);
 }
 
 .slogans {
@@ -96,11 +94,9 @@ body {
 	margin-top: 100px;
 	font-family: 'Raleway', sans-serif;
 	color: white;
-
 }
 
-
-#verse{
+#verse {
 	font-family: 'Raleway', sans-serif;
 	Font-size: 60px;
 	Font-weight: normal;
@@ -110,22 +106,26 @@ body {
 	color: white;
 }
 
-.slogans h2{
-Font-size: 30px;
-Font-weight: 700;
-Line-height: 18px;
-color: white;
-position: relative;
-bottom: 36px;
+.slogans h2 {
+	Font-size: 30px;
+	Font-weight: 700;
+	Line-height: 18px;
+	color: white;
+	position: relative;
+	bottom: 36px;
 }
 
-.slogans h3{
+.slogans h3 {
 	color: white;
 	font-size: 25px;
 }
 
 .slogans a {
 	text-decoration: none;
+}
+
+#play {
+	margin-left: 0.5%;
 }
 
 .bottom-images {
@@ -148,12 +148,84 @@ footer {
 	flex-direction: row;
 }
 
+.footer-left {
+	justify-content: flex-start;
+}
+
 .apple-online {
 	justify-content: flex-start;
+	justify-content: space-evenly;
+	flex-direction: row;
+	Font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	Font-size: 14px;
+	Font-weight: 400;
+	Line-height: 12.001px;
+	padding-top: 20px;
+	height: 14px;
+	position: relative;
+	right: ;
+}
+
+.apple-online a{
+	text-decoration: none;
+	color: rgb(0, 136, 204);
+
+
 }
 
 .links {
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
+	justify-content: space-evenly;
 	flex-direction: row;
+	Font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	Font-size: 14px;
+	Font-weight: 400;
+	Line-height: 12.001px;
+	position: relative;
+	left: 40px;
+	padding-top: 20px;
+	height: 14px;
+}
+
+.links a{
+	text-decoration: none;
+}
+
+.links p {
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: 1px solid grey;
+	color: rgb(0, 136, 204);
+
+
+}
+
+.links img {
+	height: 14px;
+	margin-left: 10px;
+}
+
+.copyright{
+	justify-content: space-evenly;
+	flex-direction: row;
+	Font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	Font-size: 14px;
+	Font-weight: 400;
+	Line-height: 12.001px;
+	padding-top: 20px;
+	height: 14px;
+}
+
+#terms{
+padding-right: 5px;
+border-right: 1px solid grey;
+color: rgb(0, 136, 204);
+
+}
+
+#privacy{
+	padding-left: 5px;
+	color: rgb(0, 136, 204);
+
 }
