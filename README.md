@@ -13,7 +13,7 @@ This Is Clone of Mac Products home page.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kotoku-code/Building-with-Backgrounds-and-Gradients/tree/proto-type)
+[Live Demo Link](https://raw.githack.com/kotoku-code/Building-with-Backgrounds-and-Gradients/proto-type/index.html)
 
 
 ### Usage
