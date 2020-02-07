@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.back-ground-image {
+  background: url(./media/your_verse_hero.jpg) 50% 100% no-repeat;
+  width: 100%;
+  height: 538px;
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  flex-flow: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  background-image: linear-gradient(grey, #5f635f, grey);
+  width: 70%;
+  margin: auto;
+  margin-top: 90px;
+  border-radius: 4px;
+  border: 3px solid grey;
+}
+
+.nav-tabs {
+  display: flex;
+  align-items: center;
+  width: 12%;
+  height: 30px;
+  justify-content: center;
+  position: relative;
+  border-left: 2px solid grey;
+}
+
+.nav a {
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.979);
+}
+
+.nav input {
+  position: absolute;
+  overflow: hidden;
+  width: 90px;
+  bottom: 3px;
+  height: 22px;
+  right: 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(grey, #5f635f, grey);
+  border: 2px solid grey;
+}
+
+#apple {
+  background-image: linear-gradient(grey, #5f635f, grey);
+  color: #d7d8d9;
+}
+
+.nav i {
+  position: relative;
+  left: 3%;
+  top: 1.5px;
+  color: white;
+  z-index: 3;
+}
+
+.nav text {
+  background-image: linear-gradient(grey, #5f635f, grey);
+}
+
+.slogans {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+#verse {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: normal;
+  position: relative;
+  bottom: 50px;
+  color: white;
+}
+
+.slogans h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 18px;
+  color: white;
+  position: relative;
+  bottom: 36px;
+}
+
+.slogans h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.slogans a {
+  text-decoration: none;
+}
+
+#play {
+  margin-left: 0.5%;
+}
+
+.bottom-images {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.bottom-images img {
+  width: 360px;
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-left {
+  justify-content: flex-start;
+}
+
+.apple-online {
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12.001px;
+  padding-top: 20px;
+  height: 14px;
+  position: relative;
+}
+
+.apple-online a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12.001px;
+  position: relative;
+  left: 40px;
+  padding-top: 20px;
+  height: 14px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links p {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid grey;
+  color: rgb(0, 136, 204);
+}
+
+.links img {
+  height: 14px;
+  margin-left: 10px;
+}
+
+.copyright {
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12.001px;
+  padding-top: 20px;
+  height: 14px;
+}
+
+#terms {
+  padding-right: 5px;
+  border-right: 1px solid grey;
+  color: rgb(0, 136, 204);
+}
+
+#privacy {
+  padding-left: 5px;
+  color: rgb(0, 136, 204);
+}
